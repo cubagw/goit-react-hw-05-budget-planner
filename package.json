@@ -13,7 +13,9 @@
     "react-scripts": "^3.3.0",
     "react-toastify": "^5.4.0",
     "redux": "^4.0.5",
-    "short-id": "0.1.0-1"
+    "short-id": "0.1.0-1",
+    "shortid": "^2.2.15",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
