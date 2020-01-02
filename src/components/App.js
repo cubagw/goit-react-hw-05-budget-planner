@@ -34,6 +34,8 @@ export default class App extends Component {
     this.setState({ budget: value });
   };
 
+
+  //ACTIONS
   addExpense = ({ name, amount }) => {
     const expense = {
       id: shortid.generate(),
@@ -56,6 +58,7 @@ export default class App extends Component {
     const { expenses, budget } = this.state;
     const totalExpenses = calculateTotalExpenses(expenses);
     const balance = calculateBalance(budget, totalExpenses);
+
 
     return (
       <Container>
